@@ -61,3 +61,62 @@ arrVacio.push('hola') //agregar elemento
 arrVacio.push(23) //agregar elemento
 arrVacio.push(miPrimeraVariable)
 console.log(arrVacio);
+
+const suma = 1 + 2
+const resta = 1 - 2
+const multiplicar = 3 * 2
+const dividir = 9/3
+
+console.log(suma, resta, multiplicar, dividir)
+
+
+const modulo = 10 % 3
+console.log(modulo)
+
+let num = 5
+// const vs let
+// num++
+// num++
+// num++
+// num++
+// num++
+num += 4
+console.log(num)
+
+let num2 = 5
+
+// num2--
+// num2--
+// num2--
+// num2--
+// num2--
+// num2--
+num2 -= 5
+console.log(num2)
+
+
+// operadores de comparacion (hacen comparaciones entre datos)
+
+//igualdad estricta
+const resultado1 = 5 === 6
+// igualdad no estricta.
+const resultado2 = 5 == '5'
+
+const resultado3 = 5 < 6
+const resultado4 = 5 < 5
+
+console.log(resultado1, resultado2);
+console.log(resultado3, resultado4);
+
+//operadores logicos
+
+// or(||), and(&&), not(!)
+
+const resutladoOr = false || 'Hola'
+console.log(resutladoOr);
+
+const resultadoAnd = true && true
+console.log(resultadoAnd);
+
+const resultadoNot = !true 
+console.log(resultadoNot);
