@@ -120,3 +120,5 @@ console.log(resultadoAnd);
 
 const resultadoNot = !true 
 console.log(resultadoNot);
+
+
